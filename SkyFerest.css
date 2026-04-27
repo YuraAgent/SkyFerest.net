@@ -1,0 +1,51 @@
+html{
+	background: #9CBFC3;
+	padding: 10px;
+	margin: 10px;
+}
+h1{
+	position: absolute;
+	top: 10px;
+	left: 714;
+	color: #1A1A1A;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 25px;
+}
+a{
+	position: absolute;
+	background-color: #687172;
+	border: solid double double solid;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	top: 90px;
+	padding: 5px 5px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.Company{
+	position: absolute;
+	font-family:comic sans;
+	color:grey;
+	font-size: 10px;
+	top: 850px;
+	left: 1310px;
+}
+.ADD1{
+	position: absolute;
+	font-family:arial;
+	color:#1A1C1C;
+	font-size: 10px;
+	top: 60px;
+}
+.Version{
+	position: absolute;
+	font-size:15;
+	color: black; 
+	font-family: arial;
+	top: 860px;
+	left: 10px;
+}

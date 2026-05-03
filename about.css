@@ -1,0 +1,91 @@
+html{
+	background: #9CBFC3;
+}
+.What_is_it{
+	position: absolute;
+	font-size: 20px;
+	font-family: arial;
+	left: 750px;
+	top: 30px;
+}
+.information_about_this_site{
+	position: absolute;
+	font-size: 15px;
+	font-family: arial;
+	top: 70px;
+	left: 500px;
+}
+.information_about_this_site2{
+	position: absolute;
+	font-size: 15px;
+	font-family: arial;
+	top: 95px;
+	left: 500px;
+}
+.information_about_this_site3{
+	position: absolute;
+	font-size: 15px;
+	font-family: arial;
+	top: 190px;
+	left: 630px;
+}
+.telegram img{
+	position: absolute;
+	top: 290px;
+	left: 505px;
+	width: 40px;
+	height: 40px;
+}
+.telegram a{
+	position: absolute;
+	top: 295px;
+	left: 550px;
+	background-color: #687172;
+	border: double;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px 5px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.twitter img{
+	position: absolute;
+	top: 290px;
+	left: 945px;
+	width: 40px;
+	height: 40px;
+}
+.twitter a{
+	position: absolute;
+	top: 295px;
+	left: 985px;
+	background-color: #687172;
+	border: double;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px 5px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.back_to_main a{
+	font-family: arial;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background-color: #687172;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px 5px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}

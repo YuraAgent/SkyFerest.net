@@ -6,7 +6,7 @@ html{
 h1{
 	position: absolute;
 	top: 10px;
-	left: 714;
+	left: 714px;
 	color: #1A1A1A;
 	font-family: arial;
 	font-weight: bold;
@@ -15,7 +15,7 @@ h1{
 a{
 	position: absolute;
 	background-color: #687172;
-	border: solid double double solid;
+	border: none;
 	border-radius: 5px;
 	cursor: pointer;
 	display: inline-block;
@@ -26,13 +26,20 @@ a{
 	text-decoration: none;
 	color: white;
 }
-.Company{
+.Company h2{
 	position: absolute;
-	font-family:comic sans;
+	font-family: arial;
 	color:grey;
-	font-size: 10px;
-	top: 850px;
-	left: 1310px;
+	font-size: 15px;
+	top: 847px;
+	left: 1280px;
+	background: #AFEEEE;
+	border-color: #1E1E1E;
+	border-radius: 8px;
+	border-top-style: solid;
+	border-right-style: double;
+	border-bottom-style: solid;
+	border-left-style: double;
 }
 .ADD1{
 	position: absolute;
@@ -43,9 +50,30 @@ a{
 }
 .Version{
 	position: absolute;
-	font-size:15;
+	font-size:15px;
 	color: black; 
 	font-family: arial;
-	top: 860px;
+	top: 855px;
 	left: 10px;
+	background: #AFEEEE;
+	border-color: #1E1E1E;
+	border-radius: 8px;
+	border-top-style: solid;
+	border-right-style: groove;
+	border-bottom-style: solid;
+	border-left-style: groove;
+}
+.about a{
+	position: absolute;
+	background: #687172;
+	cursor: pointer;
+	display: inline-block;
+	top: 855px;
+	left: 805px;
+	text-decoration: none;
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
 }

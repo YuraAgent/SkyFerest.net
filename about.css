@@ -54,14 +54,14 @@ html{
 .twitter img{
 	position: absolute;
 	top: 290px;
-	left: 945px;
+	left: 840px;
 	width: 40px;
 	height: 40px;
 }
 .twitter a{
 	position: absolute;
 	top: 295px;
-	left: 985px;
+	left: 880px;
 	background-color: #687172;
 	border: double;
 	border-radius: 5px;

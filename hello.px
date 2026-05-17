@@ -1,6 +1,0 @@
-out "Hello everyone!"
-out "Welcome to proton express file header!"
-get x;
-if (x > 5)[
-  out "Day for creating IDE", x
-]

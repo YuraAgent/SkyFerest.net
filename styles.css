@@ -6,13 +6,13 @@ html{
 h1{
 	position: absolute;
 	top: 10px;
-	left: 714px;
+	left: 707px;
 	color: #1A1A1A;
 	font-family: arial;
 	font-weight: bold;
 	font-size: 25px;
 }
-a{
+.ButtonMain a{
 	position: absolute;
 	background-color: #687172;
 	border: none;
@@ -25,6 +25,10 @@ a{
 	text-align: center;
 	text-decoration: none;
 	color: white;
+	opacity: 0.5;
+}
+.ButtonMain a:hover{
+	opacity: 1.0;
 }
 .Company h2{
 	position: absolute;
@@ -69,10 +73,11 @@ a{
 	cursor: pointer;
 	display: inline-block;
 	top: 855px;
-	left: 805px;
+	left: 800px;
 	text-decoration: none;
 	color: white;
 	text-align: left;
+	padding: 5px 5px;
 	font-size: 15px;
 	border: none;
 	border-radius: 5px;

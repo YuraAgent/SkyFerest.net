@@ -1,0 +1,54 @@
+
+body{
+	background: #B5DBDF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.Box {
+	position: absolute;
+	background-color: grey;
+	left: 5px;
+	top: 10px;
+	border-style: double;
+	height: 155px;
+	width: 400px;
+	opacity: 0.4;
+}
+.download_link a{
+	position: absolute;
+	color: white;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #705F9A;
+	padding: 3px 3px;
+	font-family: arial;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	top: 140px;
+}
+.search_whearing input{
+	border-color: #B2A9A9;
+	font-family: arial;
+	position: absolute;
+	top: 19px;
+	left: 1370px;
+}
+.search_whearing_submit input{
+	border-color: #B2A9A9;
+	font-family: arial;
+	position: absolute;
+	top: 18px;
+	left: 1525px;
+}
+.search_text h2{
+	position: absolute;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 15;
+	color: black;
+	top: -12px;
+	left: 1370px;
+}

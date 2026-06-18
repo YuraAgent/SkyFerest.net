@@ -6,91 +6,94 @@ html{
 	font-size: 20px;
 	font-family: arial;
 	left: 750px;
-	top: 30px;
+	top: 200px;
 }
 .information_about_this_site{
 	position: absolute;
 	font-size: 15px;
 	font-family: arial;
-	top: 70px;
+	top: 250px;
 	left: 500px;
 }
 .information_about_this_site2{
 	position: absolute;
 	font-size: 15px;
 	font-family: arial;
-	top: 95px;
+	top: 315px;
 	left: 500px;
 }
 .information_about_this_site3{
 	position: absolute;
 	font-size: 15px;
 	font-family: arial;
-	top: 190px;
+	top: 490px;
 	left: 630px;
 }
 .telegram img{
 	position: absolute;
-	top: 290px;
-	left: 505px;
+	top: 845px;
+	left: 240px;
 	width: 40px;
 	height: 40px;
 }
 .telegram a{
 	position: absolute;
-	top: 295px;
-	left: 550px;
+	top: 848px;
+	left: 285px;
 	background-color: #687172;
 	border: double;
 	border-radius: 5px;
 	cursor: pointer;
 	display: inline-block;
 	padding: 5px 5px;
-	font-size: 13px;
+	font-family: arial;
+	font-size: 16px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
 }
 .twitter img{
 	position: absolute;
-	top: 290px;
-	left: 925px;
+	top: 845px;
+	left: 10px;
 	width: 40px;
 	height: 40px;
 }
 .twitter a{
 	position: absolute;
-	top: 295px;
-	left: 965px;
+	top: 848px;
+	left: 55px;
 	background-color: #687172;
 	border: double;
 	border-radius: 5px;
 	cursor: pointer;
 	display: inline-block;
 	padding: 5px 5px;
-	font-size: 13px;
+	font-family: arial;
+	font-size: 16px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
 }
 .tumblr img{
 	position: absolute;
-	top: 390px;
-	left: 715px;
+	top: 845px;
+	left: 525px;
 	width: 40px;
 	height: 40px;
 }
 .tumblr a{
 	position: absolute;
-	top: 395px;
-	left: 760px;
+	top: 848px;
+	left: 575px;
 	background-color: #687172;
 	border: double;
 	border-radius: 5px;
 	cursor: pointer;
 	display: inline-block;
 	padding: 5px 5px;
-	font-size: 13px;
+	font-family: arial;
+	font-size: 16px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -100,9 +103,9 @@ html{
 	position: absolute;
 	top: 15px;
 	left: 15px;
-	background-color: #687172;
+	background-color: #7F7F7F;
+	border-radius: 7px;
 	border: none;
-	border-radius: 5px;
 	cursor: pointer;
 	display: inline-block;
 	padding: 5px 5px;

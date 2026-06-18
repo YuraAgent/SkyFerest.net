@@ -13,12 +13,14 @@ h1{
 	font-size: 25px;
 }
 .ButtonMain a{
+	font-family: arial;
 	position: absolute;
 	background-color: #687172;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
 	display: inline-block;
+	width: 50px;
 	top: 90px;
 	padding: 5px 5px;
 	font-size: 13px;
@@ -36,7 +38,7 @@ h1{
 	color:grey;
 	font-size: 15px;
 	top: 847px;
-	left: 1280px;
+	left: 1288px;
 	background: #AFEEEE;
 	border-color: #1E1E1E;
 	border-radius: 8px;
@@ -68,12 +70,29 @@ h1{
 	border-left-style: groove;
 }
 .about a{
+	font-family: arial;
 	position: absolute;
 	background: #687172;
 	cursor: pointer;
 	display: inline-block;
 	top: 855px;
-	left: 800px;
+	left: 815px;
+	text-decoration: none;
+	color: white;
+	text-align: left;
+	padding: 5px 5px;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+}
+.Information a{
+	font-family: arial;
+	position: absolute;
+	background: #687172;
+	cursor: pointer;
+	display: inline-block;
+	top: 855px;
+	left: 115px;
 	text-decoration: none;
 	color: white;
 	text-align: left;

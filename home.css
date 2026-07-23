@@ -1,47 +1,44 @@
 
 body{
-	background: #B5DBDF;
+	background: #81A0A4;
 	padding: 10px;
 	margin: 10px;
-}
-
-.Box {
-	position: absolute;
-	background-color: grey;
-	left: 5px;
-	top: 10px;
-	border-style: double;
-	height: 155px;
-	width: 400px;
-	opacity: 0.4;
 }
 .download_link a{
 	position: absolute;
 	color: white;
 	display: inline-block;
 	cursor: pointer;
-	border-radius: 5px;
-	background-color: #705F9A;
-	padding: 3px 3px;
+	border-radius: 2px;
+	background-color: #443E47;
 	font-family: arial;
 	font-size: 15px;
 	text-align: center;
+	padding: 3px 3px;
 	text-decoration: none;
-	top: 140px;
+	top: 222px;
+	left: 60px;
+	opacity: 0.5px;
+}
+.download_link img{
+	position: absolute;
+	top: 218px;
+	width: 30px;
+	height: 30px;
 }
 .search_whearing input{
 	border-color: #B2A9A9;
 	font-family: arial;
 	position: absolute;
-	top: 19px;
-	left: 1370px;
+	top: 0px;
+	left: 1423px;
 }
 .search_whearing_submit input{
 	border-color: #B2A9A9;
 	font-family: arial;
 	position: absolute;
-	top: 18px;
-	left: 1525px;
+	top: 0px;
+	left: 1580px;
 }
 .search_text h2{
 	position: absolute;
@@ -51,4 +48,77 @@ body{
 	color: black;
 	top: -12px;
 	left: 1370px;
+}
+.Renage {
+	position: absolute;
+	top: 100px;
+	color: white;
+	font-family: arial;
+	font-size: 17px;
+}
+.Game{
+	position: absolute;
+	top: 360px;
+	color: white;
+	font-size: 17px;
+	font-family: arial;
+}
+.downloadgame_link img{
+	position: absolute;
+	top: 473px;
+	width: 30px;
+	height: 30px;
+}
+.downloadgame_link a{
+	position: absolute;
+	color: white;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 2px;
+	background-color: #383A20;
+	font-family: arial;
+	font-size: 15px;
+	text-align: center;
+	padding: 3px 3px;
+	text-decoration: none;
+	top: 478px;
+	left: 60px;
+	opacity: 0.5px;
+}
+.Box {
+	position: absolute;
+	background-color: grey;
+	left: 10px;
+	top: 95px;
+	border-style: double;
+	height: 155px;
+	width: 400px;
+	opacity: 0.4;
+}
+.Box2 {
+	position: absolute;
+	background-color: grey;
+	left: 10px;
+	top: 350px;
+	border-style: double;
+	height: 155px;
+	width: 400px;
+	opacity: 0.4;
+}
+.back_to_main a{
+	font-family: arial;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background-color: #7F7F7F;
+	border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
 }

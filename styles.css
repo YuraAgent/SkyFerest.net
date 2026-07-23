@@ -1,12 +1,10 @@
 html{
-	background: #9CBFC3;
-	padding: 10px;
-	margin: 10px;
+	background: #81A0A4;
 }
 h1{
 	position: absolute;
 	top: 10px;
-	left: 707px;
+	left: 7px;
 	color: #1A1A1A;
 	font-family: arial;
 	font-weight: bold;
@@ -22,7 +20,7 @@ h1{
 	display: inline-block;
 	width: 50px;
 	top: 90px;
-	padding: 5px 5px;
+	padding: 2px 2px;
 	font-size: 13px;
 	text-align: center;
 	text-decoration: none;
@@ -32,12 +30,23 @@ h1{
 .ButtonMain a:hover{
 	opacity: 1.0;
 }
+.ButtonMain p{
+	position: absolute;
+	top: 76px;
+	left: 75px;
+	font-family: arial;
+}
+h3{
+	font-family: arial;
+	color: grey;
+	opacity: 0.3;
+}
 .Company h2{
 	position: absolute;
 	font-family: arial;
 	color:grey;
 	font-size: 15px;
-	top: 847px;
+	top: 837px;
 	left: 1288px;
 	background: #AFEEEE;
 	border-color: #1E1E1E;
@@ -46,13 +55,6 @@ h1{
 	border-right-style: double;
 	border-bottom-style: solid;
 	border-left-style: double;
-}
-.ADD1{
-	position: absolute;
-	font-family:arial;
-	color:#1A1C1C;
-	font-size: 10px;
-	top: 60px;
 }
 .Version{
 	position: absolute;

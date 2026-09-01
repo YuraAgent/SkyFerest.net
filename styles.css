@@ -1,105 +1,33 @@
-html{
-	background: #81A0A4;
+* {
+	padding: 0;
+	margin: 0;
 }
-h1{
+.Links nav {
+	display: flex;
+	background: grey;
+}
+.Links a {
+	padding: 5 10;
+	font-size: 12px;
+	color: white;
+	font-family: arial;
+	text-decoration: none;
+}
+.HomeTitle {
 	position: absolute;
-	top: 10px;
-	left: 7px;
+	padding: 2 5;
 	color: #1A1A1A;
 	font-family: arial;
 	font-weight: bold;
 	font-size: 25px;
 }
-.ButtonMain a{
-	font-family: arial;
+.Tag h2{
 	position: absolute;
-	background-color: #687172;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	display: inline-block;
-	width: 50px;
-	top: 90px;
-	padding: 2px 2px;
-	font-size: 13px;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	opacity: 0.5;
-}
-.ButtonMain a:hover{
-	opacity: 1.0;
-}
-.ButtonMain p{
-	position: absolute;
-	top: 76px;
-	left: 75px;
+	background-color: darkgrey;
+	height: 18px;
+	width: 1680px;
+	left: 0px;
+	top: 909px;
 	font-family: arial;
-}
-h3{
-	font-family: arial;
-	color: grey;
-	opacity: 0.3;
-}
-.Company h2{
-	position: absolute;
-	font-family: arial;
-	color:grey;
 	font-size: 15px;
-	top: 837px;
-	left: 1288px;
-	background: #AFEEEE;
-	border-color: #1E1E1E;
-	border-radius: 8px;
-	border-top-style: solid;
-	border-right-style: double;
-	border-bottom-style: solid;
-	border-left-style: double;
-}
-.Version{
-	position: absolute;
-	font-size:15px;
-	color: black; 
-	font-family: arial;
-	top: 855px;
-	left: 10px;
-	background: #AFEEEE;
-	border-color: #1E1E1E;
-	border-radius: 8px;
-	border-top-style: solid;
-	border-right-style: groove;
-	border-bottom-style: solid;
-	border-left-style: groove;
-}
-.about a{
-	font-family: arial;
-	position: absolute;
-	background: #687172;
-	cursor: pointer;
-	display: inline-block;
-	top: 855px;
-	left: 815px;
-	text-decoration: none;
-	color: white;
-	text-align: left;
-	padding: 5px 5px;
-	font-size: 15px;
-	border: none;
-	border-radius: 5px;
-}
-.Information a{
-	font-family: arial;
-	position: absolute;
-	background: #687172;
-	cursor: pointer;
-	display: inline-block;
-	top: 855px;
-	left: 115px;
-	text-decoration: none;
-	color: white;
-	text-align: left;
-	padding: 5px 5px;
-	font-size: 15px;
-	border: none;
-	border-radius: 5px;
 }

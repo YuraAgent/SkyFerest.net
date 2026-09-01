@@ -31,3 +31,15 @@
 	font-family: arial;
 	font-size: 15px;
 }
+.search_whearing input{
+	font-family: arial;
+	position: absolute;
+	top: 5px;
+	left: 1463px;
+}
+.search_whearing_submit input{
+	font-family: arial;
+	position: absolute;
+	top: 5px;
+	left: 1620px;
+}

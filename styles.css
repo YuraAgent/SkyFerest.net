@@ -12,6 +12,7 @@
 	color: white;
 	font-family: arial;
 	text-decoration: none;
+	text-justify: revert-layer;
 }
 .HomeTitle {
 	position: absolute;
@@ -21,25 +22,19 @@
 	font-weight: bold;
 	font-size: 25px;
 }
-.Tag h2{
-	position: absolute;
-	background-color: darkgrey;
-	height: 18px;
-	width: 1680px;
-	left: 0px;
-	top: 909px;
-	font-family: arial;
-	font-size: 15px;
-}
 .search_whearing input{
 	font-family: arial;
 	position: absolute;
-	top: 5px;
-	left: 1463px;
+	top: 2px;
+	left: 1483px;
+	width: 150px;
+	height: 20;
 }
 .search_whearing_submit input{
 	font-family: arial;
 	position: absolute;
-	top: 5px;
-	left: 1620px;
+	top: 2px;
+	left: 1632px;
+	width: 20px;
+	height: 20px;
 }

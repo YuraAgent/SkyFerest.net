@@ -1,8 +1,6 @@
-
-body{
-	background: #81A0A4;
-	padding: 10px;
-	margin: 10px;
+* {
+	padding: 0;
+	margin: 0;
 }
 .download_link a{
 	position: absolute;
@@ -16,42 +14,21 @@ body{
 	text-align: center;
 	padding: 3px 3px;
 	text-decoration: none;
-	top: 222px;
-	left: 60px;
+	top: 322px;
+	left: 300px;
 	opacity: 0.5px;
 }
 .download_link img{
 	position: absolute;
-	top: 218px;
+	top: 318px;
+	left: 260px;
 	width: 30px;
 	height: 30px;
 }
-.search_whearing input{
-	border-color: #B2A9A9;
-	font-family: arial;
-	position: absolute;
-	top: 0px;
-	left: 1423px;
-}
-.search_whearing_submit input{
-	border-color: #B2A9A9;
-	font-family: arial;
-	position: absolute;
-	top: 0px;
-	left: 1580px;
-}
-.search_text h2{
-	position: absolute;
-	font-family: arial;
-	font-weight: bold;
-	font-size: 15;
-	color: black;
-	top: -12px;
-	left: 1370px;
-}
 .Renage {
 	position: absolute;
-	top: 100px;
+	top: 160px;
+	left: 20px;
 	color: white;
 	font-family: arial;
 	font-size: 17px;
@@ -59,13 +36,15 @@ body{
 .Game{
 	position: absolute;
 	top: 360px;
+	left: 20px;
 	color: white;
 	font-size: 17px;
 	font-family: arial;
 }
 .downloadgame_link img{
 	position: absolute;
-	top: 473px;
+	top: 523px;
+	left: 260px;
 	width: 30px;
 	height: 30px;
 }
@@ -81,17 +60,27 @@ body{
 	text-align: center;
 	padding: 3px 3px;
 	text-decoration: none;
-	top: 478px;
-	left: 60px;
+	top: 528px;
+	left: 300px;
 	opacity: 0.5px;
 }
 .Box {
 	position: absolute;
 	background-color: grey;
 	left: 10px;
-	top: 95px;
-	border-style: double;
-	height: 155px;
+	top: 150px;
+	border-style: dashed;	
+	height: 200px;
+	width: 400px;
+	opacity: 0.4;
+}
+.OverBox {
+	position: absolute;
+	background-color: #433d40;
+	left: 9px;
+	top: 150px;
+	height: 407px;
+	border-style: dashed;	
 	width: 400px;
 	opacity: 0.4;
 }
@@ -99,26 +88,38 @@ body{
 	position: absolute;
 	background-color: grey;
 	left: 10px;
-	top: 350px;
-	border-style: double;
-	height: 155px;
+	top: 355px;
+	border-style: dashed;	
+	height: 200px;
 	width: 400px;
 	opacity: 0.4;
 }
-.back_to_main a{
+.back_to_main{
+	display: flex;
 	font-family: arial;
-	position: absolute;
-	top: 15px;
-	left: 15px;
 	background-color: #7F7F7F;
-	border-radius: 7px;
+	position: absolute;
+	top: -0;
 	border: none;
 	cursor: pointer;
 	display: inline-block;
-	width: 30px;
 	height: 20px;
-	font-size: 13px;
+	width: 44px;
+}
+.back_to_main a{
+	font-family: arial;
+	font-size: 12px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
+}
+.Tag h2{
+	position: absolute;
+	background-color: darkgrey;
+	height: 18px;
+	width: 1680px;
+	left: 0px;
+	top: 909px;
+	font-family: arial;
+	font-size: 15px;
 }

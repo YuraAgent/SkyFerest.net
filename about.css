@@ -21,6 +21,7 @@ html{
 	left: 500px;
 }
 .information_about_this_site2{
+	color: white;
 	position: absolute;
 	font-size: 15px;
 	font-family: arial;
@@ -30,11 +31,13 @@ html{
 .information_about_this_site3{
 	position: absolute;
 	font-size: 15px;
+	color: white;
 	font-family: arial;
 	top: 490px;
 	left: 630px;
 }
 .Halloween_info{
+	color: white;
 	position: absolute;
 	font-size: 16px;
 	font-family: arial black;

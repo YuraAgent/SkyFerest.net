@@ -4,20 +4,21 @@
 }
 .Links nav {
 	display: flex;
-	background: #914D1A;
+	background: #A6A19D;
 }
 .Links a {
 	padding: 5 10;
 	font-size: 12px;
-	color: white;
+	color: black;
 	font-family: arial;
 	text-decoration: none;
 	text-justify: revert-layer;
 }
 .HomeTitle {
 	position: absolute;
-	padding: 2 5;
-	color: #1A1A1A;
+	top: 40;
+	left: 10;
+	color: white;
 	font-family: arial;
 	font-weight: bold;
 	font-size: 25px;

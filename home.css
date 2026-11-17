@@ -156,7 +156,7 @@
 .back_to_main{
 	display: flex;
 	font-family: arial;
-	background-color: #914D1A;
+	background-color: #A6A19D;
 	position: absolute;
 	top: -0;
 	border: none;
@@ -170,16 +170,16 @@
 	font-size: 12px;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 .Tag h2{
 	position: absolute;
-	background-color: #924306;
-	color: 	white;
+	background-color: #A6A19D;
+	color: black;
 	height: 18px;
 	width: 1680px;
 	left: 0px;
-	top: 909px;
+	top: 871px;
 	font-family: arial;
 	font-size: 15px;
 }

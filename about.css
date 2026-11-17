@@ -21,7 +21,6 @@ html{
 	left: 500px;
 }
 .information_about_this_site2{
-	color: white;
 	position: absolute;
 	font-size: 15px;
 	font-family: arial;
@@ -31,30 +30,21 @@ html{
 .information_about_this_site3{
 	position: absolute;
 	font-size: 15px;
-	color: white;
 	font-family: arial;
 	top: 490px;
 	left: 630px;
 }
 .Halloween_info{
-	color: white;
 	position: absolute;
 	font-size: 16px;
 	font-family: arial black;
 	top: 508px;
 	left: 715px;
 }
-.telegram img{
-	position: absolute;
-	top: 845px;
-	left: 10px;
-	width: 40px;
-	height: 40px;
-}
 .telegram a{
 	position: absolute;
-	top: 848px;
-	left: 55px;
+	top: 836px;
+	left: 0px;
 	background-color: #687172;
 	border: double;
 	cursor: pointer;
@@ -66,17 +56,10 @@ html{
 	text-decoration: none;
 	color: white;
 }
-.tumblr img{
-	position: absolute;
-	top: 845px;
-	left: 1430px;
-	width: 40px;
-	height: 40px;
-}
 .tumblr a{
 	position: absolute;
-	top: 848px;
-	left: 1477px;
+	top: 802px;
+	left: 0px;
 	background-color: #25202B;
 	border: double;
 	cursor: pointer;
@@ -90,8 +73,8 @@ html{
 }
 .boosty a{
 	position: absolute;
-	top: 848px;
-	left: 355px;
+	top: 768px;
+	left: 0px;
 	background-color: #FF5E00;
 	border: double;
 	cursor: pointer;
@@ -105,7 +88,7 @@ html{
 }
 .back_to_main{
 	display: flex;
-	background-color: #914D1A;
+	background-color: #A6A19D;
 	position: absolute;
 	top: -0;
 	border: none;
@@ -119,16 +102,16 @@ html{
 	font-size: 12px;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 .Tag h2{
 	position: absolute;
-	background-color: #924306;
-	color: white;
+	background-color: #A6A19D;
+	color: black;
 	height: 18px;
 	width: 1680px;
 	left: 0px;
-	top: 909px;
+	top: 871px;
 	font-family: arial;
 	font-size: 15px;
 }
